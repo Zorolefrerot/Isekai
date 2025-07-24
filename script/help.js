@@ -79,7 +79,7 @@ module.exports.run = async function ({
 			let page = 1;
 			let start = (page - 1) * pages;
 			let end = start + pages;
-			let helpMessage = `𝗛𝗔𝗖𝗞𝗔𝗜𝗔[🌐]⮕𝗕𝗢𝗧 ☪\n\n`;
+			let helpMessage = `𝗠𝗘𝗥𝗗𝗜-𝗔𝗨𝗧𝗢[🌐]⮕𝗕𝗢𝗧 ☪\n\n`;
 			for (let i = start; i < Math.min(end, commands.length); i++) {
 				helpMessage += `\n ☪${i + 1}  ✦ ${prefix}${commands[i]}\n`;
 			}
@@ -94,7 +94,7 @@ module.exports.run = async function ({
 			const pages = 100;
 			let start = (page - 1) * pages;
 			let end = start + pages;
-			let helpMessage = `𝗛𝗔𝗖𝗞𝗔𝗜 [🌐]⮕ 𝗕𝗢𝗧✦:\n\n`;
+			let helpMessage = `𝗠𝗘𝗥𝗗𝗜-𝗔𝗨𝗧𝗢[🌐]⮕ 𝗕𝗢𝗧✦:\n\n`;
 			for (let i = start; i < Math.min(end, commands.length); i++) {
 				helpMessage += `\t${i + 1}. ☪ ${prefix}${commands[i]} ✦\n`;
 			}
